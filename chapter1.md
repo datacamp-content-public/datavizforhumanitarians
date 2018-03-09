@@ -1,8 +1,10 @@
 ---
 title: Template Chapter 1
-description: This is a template chapter.
----
+description: >-
+  This is a template chapter.
 
+
+---
 ## Ex 1.1
 
 ```yaml
@@ -10,37 +12,25 @@ type: NormalExercise
 lang: r
 xp: 100
 skills: 1
-key: f128f23733
+key: 8a04d1ed04
 ```
 
-Do some data science.
+Hey so lets just start off and have some fun by using qplot.  
+
+Let's do a scatterplot of this by that.
+
 
 `@instructions`
-
+run a scatterplot of
 
 `@hint`
 
 
-`@pre_exercise_code`
 
-```{r}
 
-```
 
-`@sample_code`
 
-```{r}
 
-```
 
-`@solution`
 
-```{r}
 
-```
-
-`@sct`
-
-```{r}
-
-```
