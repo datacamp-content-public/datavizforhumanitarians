@@ -1,5 +1,3 @@
-
-
 ---
 title: Dirty Boxing with qplot
 description: >-
