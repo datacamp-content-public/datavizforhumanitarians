@@ -1,7 +1,7 @@
 ---
 title: Dirty Boxing with qplot
 description: >-
-  In this chapter we'll teach you how to use qplot to win a fight.  Mastering ggplot2 language can be overwhelming at first and there is a helper function called qplot() (q for quick plot) which can be used to create the most common types of graphs.  You'll probably be suprised how powerful it is.  
+  In this chapter we'll teach you how to use qplot to win a fight.  Mastering the ggplot2 language can be overwhelming at first and there is a helper function called qplot() (q for quick plot) which can be used to create the most common types of graphs.  You'll probably be suprised how powerful it is and may be even inspired to go up a weight class later with ggplot.
 
 
 ---
@@ -21,7 +21,7 @@ Let's do a scatterplot of this by that.
 
 
 `@instructions`
-run a scatterplot of
+run a scatterplot of 
 
 `@hint`
 
