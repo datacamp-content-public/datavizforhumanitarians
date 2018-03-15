@@ -20,11 +20,11 @@ A lot of  courses start off teaching the scatter plot even though it might be th
 Let's do a scatterplot of the diamonds data set using the famous diamonds dataset.
 
 `@instructions`
-run a scatterplot on the diamonds data
+Explore the how a size (carat) affects a diamons price. run a scatterplot on these two variables in the diamonds data set.
 
 `@hint`
 did you load the library ggplot
-did specify the correct x and y values?
+did specify the correct x and y values in the correct order?
 did you speciy the correct data frame
 
 `@solution`
