@@ -46,22 +46,3 @@ qplot(carat, price, data=diamonds)
 
 
 
----
-## Ex 1 - A video?
-
-```yaml
-type: VideoExercise
-key: e9728d9da3
-lang: r
-xp: 50
-skills: 1
-video_link: player.vimeo.com/video/154783078
-```
-
-
-
-
-
-
-
-
