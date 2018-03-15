@@ -1,7 +1,7 @@
 ---
-title: datavis2
+title: Descriptive stats, tables and stuff
 description: >-
-  im just tryin
+  maybe this should go first, whatever
 
 
 
