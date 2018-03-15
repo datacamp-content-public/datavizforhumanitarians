@@ -1,9 +1,10 @@
 ---
 title: Dirty Boxing with qplot
-description: In this chapter we'll teach you how to use qplot to win a fight.  Mastering the ggplot2 language can be overwhelming at first and there is a helper function called qplot() (q for quick plot) which can be used to create the most common types of graphs.  You'll probably be suprised how powerful it is and may be even inspired to go up a weight class later with ggplot.
+description: >-
+  In this chapter we'll teach you how to use qplot to win a fight.  Mastering the ggplot2 language can be overwhelming at first and there is a helper function called qplot() (q for quick plot) which can be used to create the most common types of graphs.  You'll probably be suprised how powerful it is and may be even inspired to go up a weight class later with ggplot.
+
+
 ---
-
-
 ## Ex 1 - Scatter Plot
 
 ```yaml
@@ -19,47 +20,30 @@ A lot of  courses start off teaching the scatter plot even though it might be th
 Let's do a scatterplot of the diamonds data set using the famous diamonds dataset.
 
 `@instructions`
-run a scatterplot of 
+run a scatterplot of
 
 `@hint`
 did you load the library
 
-`@pre_exercise_code`
 
-```{r}
 
-```
 
-`@sample_code`
 
-```{r}
 
-```
 
-`@solution`
-
-```{r}
-
-```
-
-`@sct`
-
-```{r}
-
-```
 
 
 
 ---
-## <<<New Exercise>>>
+## Playing a video
 
 ```yaml
 type: VideoExercise
-key: 78e4bc56dc
 lang: r
 xp: 50
 skills: 1
-video_link: player.vimeo.com/video/180654800
+key: 78e4bc56dc
 ```
 
-
+`@projector_key`
+undefined
