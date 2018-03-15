@@ -4,20 +4,6 @@ description: In this chapter we'll teach you how to use qplot to win a fight.  M
 ---
 
 
-## Video Exercise
-
-```yaml
-type: VideoExercise 
-lang: r
-xp: 50 
-video_link: //player.vimeo.com/video/160339466
-video_hls: //videos.datacamp.com/transcoded/672_intermediate_r/v2/hls-ch1_1.master.m3u8
-```
-
-
-
-
-
 ## Ex 1 - Scatter Plot
 
 ```yaml
@@ -61,3 +47,18 @@ did you load the library
 ```{r}
 
 ```
+
+
+## Ex 2 - Video Exercise
+
+```yaml
+type: VideoExercise 
+lang: r
+xp: 50 
+video_link: //player.vimeo.com/video/160339466
+video_hls: //videos.datacamp.com/transcoded/672_intermediate_r/v2/hls-ch1_1.master.m3u8
+```
+
+
+
+
