@@ -1,7 +1,7 @@
 ---
-title: Template Chapter 1
+title: Dirty Boxing with qplot
 description: >-
-  This is a template chapter.
+  In this chapter we'll teach you how to use qplot to win a fight
 
 
 ---
