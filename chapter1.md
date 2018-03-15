@@ -1,3 +1,5 @@
+
+
 ---
 title: Dirty Boxing with qplot
 description: >-
@@ -44,24 +46,22 @@ qplot(carat, price, data=diamonds)
 
 
 
-
-
-
-
-
 ---
-## Playing a video
+## Ex 1 - A video?
 
 ```yaml
 type: VideoExercise
+key: e9728d9da3
 lang: r
 xp: 50
 skills: 1
-key: 78e4bc56dc
+video_link: player.vimeo.com/video/154783078
 ```
 
-`@projector_key`
-undefined
+
+
+
+
 
 
 
