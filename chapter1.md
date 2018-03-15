@@ -1,5 +1,5 @@
 ---
-title: Dirty Boxing with qplot
+title: Dirty Boxing with qplot - checking to see if I can change this.
 description: >-
   In this chapter we'll teach you how to use qplot to win a fight.  Mastering the ggplot2 language can be overwhelming at first and there is a helper function called qplot() (q for quick plot) which can be used to create the most common types of graphs.  You'll probably be suprised how powerful it is and may be even inspired to go up a weight class later with ggplot.
 
