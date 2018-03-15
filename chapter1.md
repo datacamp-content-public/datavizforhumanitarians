@@ -20,10 +20,11 @@ A lot of  courses start off teaching the scatter plot even though it might be th
 Let's do a scatterplot of the diamonds data set using the famous diamonds dataset.
 
 `@instructions`
-run a scatterplot of
+run a scatterplot on the diamonds data
 
 `@hint`
-did you load the library
+did you load the library ggplot
+did specify the correct x and y values
 
 
 
