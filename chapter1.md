@@ -24,7 +24,7 @@ Explore the how a size (carat) affects a diamons price. run a scatterplot on the
 
 Remember the format is:
 
-qplot(x, y, data=**, color=, shape=, size=, alpha=, geom=, method=, formula=, facets=, xlim=, ylim= xlab=, ylab=, main=, sub=)
+qplot(x, y, data=, color=, shape=, size=, alpha=, geom=, method=, formula=, facets=, xlim=, ylim= xlab=, ylab=, main=, sub=)
 
 `@hint`
 did you load the library ggplot
