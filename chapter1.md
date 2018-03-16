@@ -113,7 +113,7 @@ qplot(carat, price, data=diamonds, fill=clarity)
 #add shape arguement to formula, setting shape to cut
 
 
-#it's hard to read so lets adjust the transparency, let's set the alpha to 1/200
+#it's hard to read so lets adjust the transparency, let's set the alpha to 1/3
 
 
 ```
@@ -126,7 +126,7 @@ qplot(carat, price, data=diamonds, fill=clarity,  xlab="size of diamond in carat
 
 
 
-qplot(carat, price, data=diamonds, fill=clarity,  xlab="size of diamond in carat", ylab="price of diamond in dollars", shape=cut,  alpha = I(1/200))
+qplot(carat, price, data=diamonds, fill=clarity,  xlab="size of diamond in carat", ylab="price of diamond in dollars", shape=cut,  alpha = I(1/3))
 
 
 ```
@@ -140,5 +140,22 @@ success_msg("ya boy!")
 
 
 
+
+
+
+
+
+
+---
+## Test Video
+
+```yaml
+type: VideoExercise
+key: ce0b20a588
+lang: r
+xp: 50
+skills: 1
+video_link: player.vimeo.com/video/154783078
+```
 
 
