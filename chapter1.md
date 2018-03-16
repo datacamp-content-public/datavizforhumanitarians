@@ -34,7 +34,10 @@ did specify the correct x and y values in the correct order?
 did you specify the correct data frame?
 did you specify the correct variable to fill?
 
-
+`@pre_exercise_code`
+```{r}
+library(ggplot2)
+```
 `@sample_code`
 ```{r}
 #load ggplot 
@@ -53,7 +56,10 @@ qplot(carat, price, data=diamonds)
 
 qplot(carat, price, data=diamonds, fill=clarity)
 ```
-
+`@sct`
+```{r}
+success_msg("Awesome! It's considered good style to write spaces either side of the assignment arrow.")
+```
 
 
 
