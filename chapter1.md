@@ -58,7 +58,7 @@ qplot(carat, price, data=diamonds, fill=clarity)
 ```
 `@sct`
 ```{r}
-success_msg("Awesome! It's considered good style to write spaces either side of the assignment arrow.")
+success_msg("Awesome! Isnt this easy?")
 ```
 
 
@@ -76,13 +76,13 @@ xp:
 key: 6c02af1e65
 ```
 
-Isnt this easy?  We're going to keep the same scatter but play with a couple more options to get you more excited about qplot.
+  We're going to keep the same scatter but play with a couple more options to get you more excited about qplot.
 
 Specifically, we're going to:
 
 1.  add labels to the x and y axis using _xlab_ and _ylab_
-2.  change the transparency of the dots by adjusting the _alpha_
-3.  instead of using color to represent the clarity, use _alpha_
+2.  add in how the cut of a diamond affects the price usng _shape_
+3.  explore changing the transparency of the graph by adjusting the _alpha_
 
 qplot(x, y, data=, color=, fill=, shape=, size=, alpha=, geom=, method=, formula=, facets=, xlim=, ylim=, xlab=, ylab=, main=, _sub=)_
 
@@ -90,9 +90,10 @@ qplot(x, y, data=, color=, fill=, shape=, size=, alpha=, geom=, method=, formula
 `@instructions`
 Adding to  the code in the last exercise
 
-1.  add labels to the x and y axis using _xlab_ and _ylab_ .  Enter "
-2.  change the transparency of the dots by adjusting the _alpha_
-3.  instead of using color to represent the clarity, use _alpha_
+1.  add labels to the x and y axis using _xlab_ and _ylab_ .  Label the x axis "size of diamond in carat" and label the y axis "price of diamond in dollars"
+2.  add in how the cut of a diamond affects the price usng _shape_
+3.  explore changing the transparency of the graph by adjusting the _alpha_
+
 
 `@hint`
 are you serious?
@@ -107,21 +108,27 @@ library(ggplot2)
 #code from last time
 qplot(carat, price, data=diamonds, fill=clarity)
 
-#add labels to the x and y 
+#add labels to the x and y by specifying xlab and ylab
+
+#add shape arguement to formula, setting shape to cut
 
 
-#set the alpha to 1
+#it's hard to read so lets adjust the transparency, let's set the alpha to 1/200
 
 
-#set shape to clarity
 ```
 `@solution`
 ```{r}
-library(ggplot2)
+qplot(carat, price, data=diamonds, fill=clarity, xlab="size of diamond in carat", ylab="price of diamond in dollars")
 
-qplot(carat, price, data=diamonds)
 
-qplot(carat, price, data=diamonds, fill=clarity)
+qplot(carat, price, data=diamonds, fill=clarity,  xlab="size of diamond in carat", ylab="price of diamond in dollars", shape=cut)
+
+
+
+qplot(carat, price, data=diamonds, fill=clarity,  xlab="size of diamond in carat", ylab="price of diamond in dollars", shape=cut,  alpha = I(1/200))
+
+
 ```
 `@sct`
 ```{r}
