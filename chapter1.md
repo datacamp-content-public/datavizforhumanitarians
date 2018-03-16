@@ -20,7 +20,7 @@ A lot of courses start off with the scatter plot.  We're going to do the same ev
 Let's do a scatterplot using the famous diamonds dataset.
 
 `@instructions`
-1.  Explore how a size (carat) affects a diamonds price by creating a  scatterplot on these two variables in the diamonds data set.  Put 
+1.  Explore how a size (carat) affects a diamonds price by creating a  scatterplot on these two variables in the diamonds data set.  Put carat as x and price as y
 
 2.  Explore how a diamonds clarity also affects it’s price
 
@@ -111,7 +111,6 @@ qplot(carat, price, data=diamonds, fill=clarity)
 #add labels to the x and y by specifying xlab and ylab
 
 #add shape arguement to formula, setting shape to cut
-
 
 #it's hard to read so lets adjust the transparency, let's set the alpha to 1/3
 
