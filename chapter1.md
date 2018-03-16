@@ -156,7 +156,7 @@ success_msg("ya boy!")
 
 ```yaml
 type: VideoExercise
-key:d67531ae21e9395c4f56fc4d4c7d430e4782421a
+key: d67531ae21e9395c4f56fc4d4c7d430e4782421a
 lang: r
 xp: 50
 skills: 1
