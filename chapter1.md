@@ -15,24 +15,27 @@ skills: 1
 key: bb3bd2e856
 ```
 
-A lot of  courses start off with the scatter plot.  We're going to do the same  even though it might be the least used type of graphic in humanitarian work.  Why are  we starting off with it?  Because it's so easy!  Qplot plot produces a scatter by default when giving an x and a y. 
+A lot of courses start off with the scatter plot.  We're going to do the same even though it might be the least used type of graphic in humanitarian work.  Why are  we starting off with it?  Because it's so easy!  Qplot produces a scatterplot by default when giving an x and a y. 
 
-Let's do a scatterplot of the diamonds data set using the famous diamonds dataset.
+Let's do a scatterplot using the famous diamonds dataset.
+
 
 `@instructions`
 1.  Explore how a size (carat) affects a diamonds price by creating a  scatterplot on these two variables in the diamonds data set.  Put 
 
-2.  Explore how a diamonds clarity also a
+2.  Explore how a diamonds clarity also affects it’s price
 
 Remember the format is:
 
 qplot(x, y, data=, color=, fill=, shape=, size=, alpha=, geom=, method=, formula=, facets=, xlim=, ylim=, xlab=, ylab=, main=, sub=)
+
 
 `@hint`
 did you load the library ggplot?
 did specify the correct x and y values in the correct order?
 did you specify the correct data frame?
 did you specify the correct variable to fill?
+
 
 `@pre_exercise_code`
 ```{r}
