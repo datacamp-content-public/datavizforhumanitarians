@@ -150,7 +150,7 @@ success_msg("ya boy!")
 
 
 ---
-## <<<New Exercise>>>
+## Video Exercise
 
 ```yaml
 type: VideoExercise
