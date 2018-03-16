@@ -156,14 +156,11 @@ success_msg("ya boy!")
 
 ```yaml
 type: VideoExercise
-key: bf0b278baa
+key:d67531ae21e9395c4f56fc4d4c7d430e4782421a
 lang: r
 xp: 50
 skills: 1
-video_link: player.vimeo.com/video/260397176
+video_link: player.vimeo.com/video/160903486
 ```
-*** =projector_key
-6867a625c5df9dab8d310e8a32ab9357
-
 
 
