@@ -71,7 +71,7 @@ success_msg("Awesome! Isnt this easy?")
 ```yaml
 type: NormalExercise
 
-xp: 
+xp: 100
 
 key: 6c02af1e65
 ```
@@ -146,19 +146,19 @@ success_msg("ya boy!")
 
 
 
+
+
+
 ---
-## Test Video
+## <<<New Exercise>>>
 
 ```yaml
 type: VideoExercise
-key: ce0b20a588
 lang: r
 xp: 50
 skills: 1
-video_link: player.vimeo.com/video/155580088
+video_link: player.vimeo.com/video/260397176
+key: 36beb9c110
 ```
-*** =projector_key
-8e92cb12ba5cf47bbb2f2e688ed23c3b
-
 
 
