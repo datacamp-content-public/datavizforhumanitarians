@@ -149,19 +149,18 @@ success_msg("ya boy!")
 
 
 
+
+
 ---
-## Video Exercise
+## Time for a Video
 
 ```yaml
 type: VideoExercise
+key: bf0b278baa
 lang: r
 xp: 50
 skills: 1
 video_link: player.vimeo.com/video/260397176
-key: 36beb9c110
 ```
-*** =projector_key
-95f90a846cc96c327bf753a1b1e6ed8e
-
 
 
